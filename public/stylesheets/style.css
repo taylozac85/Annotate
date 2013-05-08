@@ -1,0 +1,59 @@
+/*.screen-layer {
+	background: #FBFBFB;
+	opacity: 0.7;
+}*/
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button#master-btn {
+	position: fixed;
+	bottom: 0px;
+	right: 120px;
+	margin: 0px;
+	padding: 10px 40px;
+	font-size: 18px;
+	background-color: lightBlue;
+	border-radius: 9px 9px 0 0;
+	border-top: 3px solid darkBlue;
+	border-right: 3px solid darkBlue;
+	border-left: 3px solid darkBlue;
+	border-bottom: 0px;
+	cursor: hand; 
+	cursor: pointer;
+}
+
+#master-btn-on {
+	position: fixed;
+	bottom: 0px;
+	right: 120px;
+	margin: 0px;
+	padding: 10px 40px;
+	font-size: 18px;
+	background-color: lightRed;
+	border-radius: 9px 9px 0 0;
+	border-top: 3px solid red;
+	border-right: 3px solid red;
+	border-left: 3px solid red;
+	border-bottom: 0px;
+	cursor: hand; 
+	cursor: pointer;
+}
+
+.highlighted:hover {
+	/* need to find a way to clear existing border 
+	or wrap border in another one*/
+	border: 1px solid red;
+	cursor: hand; 
+	cursor: pointer;	
+}
+
+#annotate-star {
+	position: absolute;
+}
